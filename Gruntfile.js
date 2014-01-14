@@ -33,6 +33,17 @@ module.exports = function(grunt) {
                 compress: false
             },
 
+            mobilecollectme: {
+                options: {
+                    import: ['theme-collectme-mobile']
+                },
+
+                files: [{
+                    src: 'node_modules/topcoat-*/src/**/*.styl',
+                    dest: 'css/collectme-mobile.css'
+                }]
+            },
+
             mobilelight: {
                 options: {
                     import: ['theme-topcoat-mobile-light']
