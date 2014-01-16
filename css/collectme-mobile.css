@@ -174,8 +174,8 @@
   text-shadow: none;
   vertical-align: top;
   background-color: #eaedf1;
-  box-shadow: inset 0 1px #fff;
-  border: none;
+  box-shadow: none;
+  border: 1px solid transparent;
   border-radius: 6px;
 }
 
@@ -208,7 +208,7 @@
 .topcoat-button-bar__button:active,
 .topcoat-button-bar__button--large:active,
 :checked + .topcoat-button-bar__button {
-  border: none;
+  border: 1px solid transparent;
   background-color: #d2d6d6;
   box-shadow: none;
 }
@@ -222,8 +222,8 @@
 .topcoat-button--quiet:hover,
 .topcoat-button--large--quiet:hover {
   text-shadow: none;
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .topcoat-button--quiet:active,
@@ -233,7 +233,7 @@
   color: #454545;
   text-shadow: none;
   background-color: #d2d6d6;
-  border: none;
+  border: 1px solid transparent;
   box-shadow: none;
 }
 
@@ -599,8 +599,8 @@
   text-shadow: none;
   vertical-align: top;
   background-color: #eaedf1;
-  box-shadow: inset 0 1px #fff;
-  border: none;
+  box-shadow: none;
+  border: 1px solid transparent;
   border-radius: 6px;
 }
 
@@ -626,7 +626,7 @@
 
 .topcoat-button:active,
 .topcoat-button--large:active {
-  border: none;
+  border: 1px solid transparent;
   background-color: #d2d6d6;
   box-shadow: none;
 }
@@ -659,8 +659,8 @@
 .topcoat-button--quiet:hover,
 .topcoat-button--large--quiet:hover {
   text-shadow: none;
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .topcoat-button--quiet:active,
@@ -670,7 +670,7 @@
   color: #454545;
   text-shadow: none;
   background-color: #d2d6d6;
-  border: none;
+  border: 1px solid transparent;
   box-shadow: none;
 }
 
@@ -1033,9 +1033,9 @@ input[type="checkbox"]:checked + .topcoat-checkbox__checkmark:after {
   width: 2rem;
   height: 2rem;
   background: #eaedf1;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 3px;
-  box-shadow: inset 0 1px #fff;
+  box-shadow: none;
 }
 
 .topcoat-checkbox__checkmark {
@@ -1066,15 +1066,15 @@ input[type="checkbox"]:focus + .topcoat-checkbox__checkmark:before {
 }
 
 input[type="checkbox"]:active + .topcoat-checkbox__checkmark:before {
-  border: none;
+  border: 1px solid transparent;
   background-color: #d2d6d6;
   box-shadow: none;
 }
 
 input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
-  border: none;
+  border: 1px solid transparent;
   background: #eaedf1;
-  box-shadow: inset 0 1px #fff;
+  box-shadow: none;
 }
 
 /**
@@ -1191,8 +1191,8 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
   text-shadow: none;
   vertical-align: baseline;
   background-color: #eaedf1;
-  box-shadow: inset 0 1px #fff;
-  border: none;
+  box-shadow: none;
+  border: 1px solid transparent;
   border-radius: 6px;
 }
 
@@ -1216,7 +1216,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 
 .topcoat-icon-button:active,
 .topcoat-icon-button--large:active {
-  border: none;
+  border: 1px solid transparent;
   background-color: #d2d6d6;
   box-shadow: none;
 }
@@ -1254,8 +1254,8 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 .topcoat-icon-button--quiet:hover,
 .topcoat-icon-button--large--quiet:hover {
   text-shadow: none;
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .topcoat-icon-button--quiet:active,
@@ -1265,7 +1265,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
   color: #454545;
   text-shadow: none;
   background-color: #d2d6d6;
-  border: none;
+  border: 1px solid transparent;
   box-shadow: none;
 }
 
@@ -2208,8 +2208,8 @@ input[type="radio"]:checked + .topcoat-radio-button__checkmark:after {
   width: 1.875rem;
   height: 1.875rem;
   background: #eaedf1;
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .topcoat-radio-button__checkmark {
@@ -2238,15 +2238,15 @@ input[type="radio"]:focus + .topcoat-radio-button__checkmark:before {
 }
 
 input[type="radio"]:active + .topcoat-radio-button__checkmark:before {
-  border: none;
+  border: 1px solid transparent;
   background-color: #d2d6d6;
   box-shadow: none;
 }
 
 input[type="radio"]:disabled:active + .topcoat-radio-button__checkmark:before {
-  border: none;
+  border: 1px solid transparent;
   background: #eaedf1;
-  box-shadow: inset 0 1px #fff;
+  box-shadow: none;
 }
 
 /*
@@ -2394,7 +2394,7 @@ limitations under the License.
 
 .topcoat-range {
   border-radius: 6px;
-  border: none;
+  border: 1px solid transparent;
   background-color: #d6dcdb;
   height: 1rem;
   border-radius: 30px;
@@ -2402,7 +2402,7 @@ limitations under the License.
 
 .topcoat-range::-moz-range-track {
   border-radius: 6px;
-  border: none;
+  border: 1px solid transparent;
   background-color: #d6dcdb;
   height: 1rem;
   border-radius: 30px;
@@ -2412,18 +2412,18 @@ limitations under the License.
   height: 3rem;
   width: 2rem;
   background-color: #eaedf1;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 6px;
-  box-shadow: inset 0 1px #fff;
+  box-shadow: none;
 }
 
 .topcoat-range::-moz-range-thumb {
   height: 3rem;
   width: 2rem;
   background-color: #eaedf1;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 6px;
-  box-shadow: inset 0 1px #fff;
+  box-shadow: none;
 }
 
 .topcoat-range:focus::-webkit-slider-thumb {
@@ -2437,13 +2437,13 @@ limitations under the License.
 }
 
 .topcoat-range:active::-webkit-slider-thumb {
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .topcoat-range:active::-moz-range-thumb {
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 /**
@@ -2595,7 +2595,7 @@ input[type="search"]::-webkit-search-cancel-button {
   line-height: 3rem;
   height: 3rem;
   font-size: 16px;
-  border: none;
+  border: 1px solid transparent;
   background-color: #fff;
   box-shadow: inset 0 1px 0 rgba(0,0,0,0.23);
   color: #454545;
@@ -2911,7 +2911,7 @@ input[type="search"]::-webkit-search-cancel-button {
   font-size: 16px;
   padding: 0 1.25rem;
   border-radius: 6px;
-  border: none;
+  border: 1px solid transparent;
   overflow: hidden;
   width: 6rem;
 }
@@ -2938,11 +2938,11 @@ input[type="search"]::-webkit-search-cancel-button {
   color: #454545;
   text-shadow: none;
   background-color: #eaedf1;
-  border: none;
+  border: 1px solid transparent;
   margin-left: -1.3rem;
   margin-bottom: -1px;
   margin-top: -1px;
-  box-shadow: inset 0 1px #fff;
+  box-shadow: none;
   -webkit-transition: margin-left 0.05s ease-in-out;
   transition: margin-left 0.05s ease-in-out;
 }
@@ -2959,8 +2959,8 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .topcoat-switch__input:active + .topcoat-switch__toggle {
-  border: none;
-  box-shadow: inset 0 1px #fff;
+  border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .topcoat-switch__input:focus + .topcoat-switch__toggle {
@@ -3126,8 +3126,8 @@ input[type="search"]::-webkit-search-cancel-button {
   text-shadow: none;
   vertical-align: top;
   background-color: #eaedf1;
-  box-shadow: inset 0 1px #fff;
-  border-top: none;
+  box-shadow: none;
+  border-top: 1px solid transparent;
 }
 
 .topcoat-tab-bar__button:active,
@@ -3233,7 +3233,7 @@ input[type="search"]::-webkit-search-cancel-button {
   font-size: 16px;
   letter-spacing: 1px;
   padding: 0 1.25rem;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 6px;
   background-color: #fff;
   box-shadow: none;
@@ -3458,7 +3458,7 @@ input[type="search"]::-webkit-search-cancel-button {
   font-weight: 400;
   border-radius: 6px;
   line-height: 3rem;
-  border: none;
+  border: 1px solid transparent;
   background-color: #fff;
   box-shadow: none;
   color: #454545;
