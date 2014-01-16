@@ -176,7 +176,7 @@
   background-color: #eaedf1;
   box-shadow: none;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .topcoat-button:hover,
@@ -348,13 +348,13 @@
 */
 
 .topcoat-button-bar > .topcoat-button-bar__item:first-child {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .topcoat-button-bar > .topcoat-button-bar__item:last-child {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .topcoat-button-bar__item:first-child > .topcoat-button-bar__button,
@@ -601,7 +601,7 @@
   background-color: #eaedf1;
   box-shadow: none;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .topcoat-button:hover,
@@ -1193,7 +1193,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
   background-color: #eaedf1;
   box-shadow: none;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .topcoat-icon-button:hover,
@@ -2393,7 +2393,7 @@ limitations under the License.
 */
 
 .topcoat-range {
-  border-radius: 6px;
+  border-radius: 0;
   border: 1px solid transparent;
   background-color: #d6dcdb;
   height: 1rem;
@@ -2401,7 +2401,7 @@ limitations under the License.
 }
 
 .topcoat-range::-moz-range-track {
-  border-radius: 6px;
+  border-radius: 0;
   border: 1px solid transparent;
   background-color: #d6dcdb;
   height: 1rem;
@@ -2413,7 +2413,7 @@ limitations under the License.
   width: 2rem;
   background-color: #eaedf1;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0;
   box-shadow: none;
 }
 
@@ -2422,7 +2422,7 @@ limitations under the License.
   width: 2rem;
   background-color: #eaedf1;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0;
   box-shadow: none;
 }
 
@@ -2910,7 +2910,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .topcoat-switch {
   font-size: 16px;
   padding: 0 1.25rem;
-  border-radius: 6px;
+  border-radius: 0;
   border: 1px solid transparent;
   overflow: hidden;
   width: 6rem;
@@ -2934,7 +2934,7 @@ input[type="search"]::-webkit-search-cancel-button {
   line-height: 3rem;
   height: 3rem;
   width: 2rem;
-  border-radius: 6px;
+  border-radius: 0;
   color: #454545;
   text-shadow: none;
   background-color: #eaedf1;
@@ -3234,7 +3234,7 @@ input[type="search"]::-webkit-search-cancel-button {
   letter-spacing: 1px;
   padding: 0 1.25rem;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0;
   background-color: #fff;
   box-shadow: none;
   color: #454545;
@@ -3456,7 +3456,7 @@ input[type="search"]::-webkit-search-cancel-button {
   padding: 2rem;
   font-size: 2.5rem;
   font-weight: 400;
-  border-radius: 6px;
+  border-radius: 0;
   line-height: 3rem;
   border: 1px solid transparent;
   background-color: #fff;
