@@ -166,7 +166,7 @@
 .topcoat-button-bar__button,
 .topcoat-button-bar__button--large {
   padding: 0 1.25rem;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 3rem;
   letter-spacing: 1px;
@@ -240,7 +240,7 @@
 .topcoat-button--large,
 .topcoat-button--large--quiet,
 .topcoat-button-bar__button--large {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 4.375rem;
   padding: 0 1.25rem;
@@ -274,7 +274,7 @@
 }
 
 .topcoat-button--large--cta {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 4.375rem;
   padding: 0 1.25rem;
@@ -591,7 +591,7 @@
 .topcoat-button--cta,
 .topcoat-button--large--cta {
   padding: 0 1.25rem;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 3rem;
   letter-spacing: 1px;
@@ -695,7 +695,7 @@
 
 .topcoat-button--large,
 .topcoat-button--large--quiet {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 4.375rem;
   padding: 0 1.25rem;
@@ -788,7 +788,7 @@
 */
 
 .topcoat-button--large--cta {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 4.375rem;
   padding: 0 1.25rem;
@@ -1295,9 +1295,9 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 
 .topcoat-icon-button--large,
 .topcoat-icon-button--large--quiet {
-  width: 4.375rem;
-  height: 4.375rem;
-  line-height: 4.375rem;
+  width: 3.375rem;
+  height: 3.375rem;
+  line-height: 3.375rem;
 }
 
 /* topdoc
@@ -1784,7 +1784,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 */
 
 .topcoat-navigation-bar {
-  height: 4.375rem;
+  height: 3.375rem;
   padding-left: 0;
   padding-right: 0;
   background: #eaedf1;
@@ -1799,7 +1799,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 }
 
 .topcoat-navigation-bar__title {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #6a7686;
 }
@@ -2594,7 +2594,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .topcoat-search-input--large {
   line-height: 3rem;
   height: 3rem;
-  font-size: 16px;
+  font-size: 14px;
   border: 1px solid transparent;
   background-color: #fff;
   box-shadow: inset 0 1px 0 rgba(0,0,0,0.23);
@@ -2604,7 +2604,7 @@ input[type="search"]::-webkit-search-cancel-button {
   background-image: url("../img/search.svg");
   background-position: 1rem center;
   background-repeat: no-repeat;
-  background-size: 16px;
+  background-size: 14px;
 }
 
 .topcoat-search-input:focus,
@@ -2659,14 +2659,14 @@ input[type="search"]::-webkit-search-cancel-button {
 */
 
 .topcoat-search-input--large {
-  line-height: 4.375rem;
-  height: 4.375rem;
-  font-size: 1.3rem;
+  line-height: 3.375rem;
+  height: 3.375rem;
+  font-size: 1rem;
   font-weight: 400;
   padding: 0 0 0 2.9rem;
   border-radius: 40px;
   background-position: 1.2rem center;
-  background-size: 1.3rem;
+  background-size: 1rem;
 }
 
 .topcoat-search-input--large:disabled {
@@ -2908,7 +2908,7 @@ input[type="search"]::-webkit-search-cancel-button {
 */
 
 .topcoat-switch {
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 1.25rem;
   border-radius: 0;
   border: 1px solid transparent;
@@ -3230,7 +3230,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .topcoat-text-input,
 .topcoat-text-input--large {
   line-height: 3rem;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   padding: 0 1.25rem;
   border: 1px solid transparent;
@@ -3290,8 +3290,8 @@ input[type="search"]::-webkit-search-cancel-button {
 */
 
 .topcoat-text-input--large {
-  line-height: 4.375rem;
-  font-size: 1.3rem;
+  line-height: 3.375rem;
+  font-size: 1rem;
 }
 
 .topcoat-text-input--large:disabled {
