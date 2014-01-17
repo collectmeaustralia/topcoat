@@ -242,7 +242,7 @@
 .topcoat-button-bar__button--large {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 4.375rem;
+  line-height: 3.375rem;
   padding: 0 1.25rem;
 }
 
@@ -276,7 +276,7 @@
 .topcoat-button--large--cta {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 4.375rem;
+  line-height: 3.375rem;
   padding: 0 1.25rem;
 }
 
@@ -697,7 +697,7 @@
 .topcoat-button--large--quiet {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 4.375rem;
+  line-height: 3.375rem;
   padding: 0 1.25rem;
 }
 
@@ -790,7 +790,7 @@
 .topcoat-button--large--cta {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 4.375rem;
+  line-height: 3.375rem;
   padding: 0 1.25rem;
 }
 
@@ -1794,7 +1794,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 
 .topcoat-navigation-bar__item {
   margin: 0;
-  line-height: 4.375rem;
+  line-height: 3.375rem;
   vertical-align: top;
 }
 
@@ -3506,7 +3506,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .topcoat-textarea--large {
   font-size: 3rem;
-  line-height: 4.375rem;
+  line-height: 3.375rem;
 }
 
 .topcoat-textarea--large:disabled {
