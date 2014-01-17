@@ -1184,7 +1184,7 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 .topcoat-icon-button--quiet,
 .topcoat-icon-button--large,
 .topcoat-icon-button--large--quiet {
-  padding: 0 0.75rem;
+  padding: 0;
   line-height: 3rem;
   letter-spacing: 1px;
   color: #454545;
