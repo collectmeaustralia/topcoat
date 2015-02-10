@@ -6,9 +6,9 @@ CSS for clean and fast web apps
 
 ## Usage
 
-* [Download Topcoat](https://github.com/topcoat/topcoat/archive/0.7.5.zip)
+* [Download Topcoat](https://github.com/topcoat/topcoat/archive/v0.8.0.zip)
 
-* Open index.html to view the usage guides.
+* Open `demo/index.html` to view the usage guides.
 * Copy your desired theme CSS from the `css/` folder into your project
 * Copy the `img/` and `font/` folders into your project ( Feel free to only
   copy the images and font weights you intend to use )
